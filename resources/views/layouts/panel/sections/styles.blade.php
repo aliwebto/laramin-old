@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" href="{{ asset(mix('assets/panel/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')) }}" />
 <link rel="stylesheet" href="{{ asset(mix('assets/panel/vendor/libs/typeahead-js/typeahead.css')) }}" />
-
+<link rel="stylesheet" href="{{ asset(mix('assets/panel/vendor/libs/toastr/toastr.css')) }}">
 <!-- Vendor Styles -->
 @yield('vendor-style')
 

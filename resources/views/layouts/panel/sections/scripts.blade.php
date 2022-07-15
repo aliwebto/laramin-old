@@ -7,6 +7,8 @@
 <script src="{{ asset(mix('assets/panel/vendor/libs/i18n/i18n.js')) }}"></script>
 <script src="{{ asset(mix('assets/panel/vendor/libs/typeahead-js/typeahead.js')) }}"></script>
 <script src="{{ asset(mix('assets/panel/vendor/js/menu.js')) }}"></script>
+<script src="{{ asset(mix('assets/panel/vendor/libs/toastr/toastr.js')) }}"></script>
+<script src="{{ asset(mix('assets/panel/vendor/js/userpanel-toastr.js')) }}"></script>
 @yield('vendor-script')
 <!-- END: Page Vendor JS-->
 <!-- BEGIN: Theme JS-->
