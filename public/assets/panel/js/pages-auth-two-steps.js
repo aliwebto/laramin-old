@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', function (e) {
         numeralMaskList.forEach(numeralMaskEl => {
           if (numeralMaskEl.value === '') {
             otpFlag = false;
-            twoStepsForm.querySelector('[name="otp"]').value = '';
+            twoStepsForm.querySelector('[name="code"]').value = '';
           }
           otpVal = otpVal + numeralMaskEl.value;
         });
         if (otpFlag) {
-          twoStepsForm.querySelector('[name="otp"]').value = otpVal;
+          twoStepsForm.querySelector('[name="code"]').value = otpVal;
         }
       };
       numeralMaskList.forEach(numeralMaskEle => {
